@@ -1,0 +1,77 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+local_settings.py
+
+# Docs archive
+docs/archive/
+
+# 新增需要忽略的内容
+# 服务器环境配置
+/server/
+/deploy/
+
+# 新增IDE配置
+.vscode/settings.json
+
+# 新增忽略编译文件
+*.pyc
+*.pyo
+*.pyd
+
+# 新增忽略测试数据
+/test_data/
+/tmp/
+
+# 忽略legacy目录
+/legacy/
+# 但保留目录结构（如果需要）
+!legacy/.gitkeep
+
+# 忽略IDE配置文件
+.idea/
+.vscode/
+
+# 忽略虚拟环境
+.venv/
+venv/ 
